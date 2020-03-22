@@ -2,6 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
 }
 
 /* Your styles begin here */
+
+h1 {
+    margin-bottom: 25px;
+}
+
+.pokemon {
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    color: black;
+    text-decoration: none;
+    padding: 15px 0;
+}
+.pokemon:hover {
+    background: #ccc;
+}
+
+.pokemon-image {
+    width: 100%;
+}

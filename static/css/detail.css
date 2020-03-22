@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+/* Your styles begin here */
+
+.back {
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-bottom: 10px
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}

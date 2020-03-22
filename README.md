@@ -1,5 +1,33 @@
-# Flask Starter
-This is a boilerplate repository for starting new exercises for Flask learners.
+# Flask App 1: Pokedex Front End
+For this exercise, you'll be creating a Pokedex that displays all of the original 151 Pokemon and detail pages for each Pokemon. This repository 
+
+## What you'll practice
+ - HTML
+ - CSS
+ - JavaScript
+ - jQuery
+ - AJAX
+ - API calls
+ - Command Line
+ - Git
+ - GitHub
+
+ ## Files and folders
+
+ **For you**
+ - `/templates` - Contains all of the HTML templates in your application. There are two: `index.html` is for the homepage located at `localhost:5000`, and `detail.html` is for an individual pokemon's page located at `localhost:5000/:id` where `:id` is the pokemon's ID number. For example, `localhost:5000/1` should be the page for Bulbasaur.
+ - `/static/css` - Contains each of the CSS files for each of the HTML files in `/templates`. So `index.css` is for `index.html` and `detail.css` is for `detail.html`
+ - `/static/js` - Contains each of the JavaScript files for each of the HTML files in `templates`. So `index.js` is for `index.html` and `detail.js` is for `detail.html`. This folder also contains `jquery.min.js` for jQuery. It's already installed in each of your HTML files in `/templates` and you can see how it's installed there.
+
+ **Do not touch**
+ - `README.md` - The instructions you're reading right now.
+ - `setup.sh` - The file that will set your application up for you. See the "Setup" instructions below.
+ - `requirements.txt` - A file that stores all of your Python dependencies (e.g. Flask) so when you run `pip install -r requirements.txt`, you'll download all the dependencies you need. For more information, see "How setup.sh works"
+ - `app.py` - The Python file that starts your web application. This file is written using the Flask framework, and it's been commented with some information to help you understand how it works. For this exercise, you should not change anything in this file, but feel free to explore. We will be working on the server side code in the next exercise.
+ - `.gitignore` - A file that tells `git` which files to ignore when you use version control.
+ - `/data` - A folder that contains all of the pokemon data for your application. In future exercises, this will be replaced with other ways of storing data.
+ - `/venv` - A folder that contains all of your virtual environment files and downloaded dependencies from `pip`. For more information, see "How setup.sh works"
+ - `/__pycache__` - You'll probably have this folder generated. It is something created by Python 3 when you run it, and you can safely ignore it.
 
 # Setup
 These instructions are a simplified version of the Flask [installation instructions](https://flask.palletsprojects.com/en/1.1.x/installation/) and [quickstart](https://flask.palletsprojects.com/en/1.1.x/quickstart/). If you have any questions, feel free to reach out to me.
