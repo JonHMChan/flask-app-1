@@ -1,6 +1,8 @@
 # Flask App 1: Pokedex Front End
 For this exercise, you'll be creating a Pokedex that displays all of the original 151 Pokemon and detail pages for each Pokemon. This repository is also live at https://sleepy-earth-06238.herokuapp.com/ if you would like to see how it works.
 
+![Pokedex Homepage](https://raw.githubusercontent.com/JonHMChan/flask-app-1/master/static/img/preview.png)
+
 ## What you'll practice
  - HTML
  - CSS
