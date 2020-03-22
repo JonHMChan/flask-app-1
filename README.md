@@ -1,5 +1,5 @@
 # Flask App 1: Pokedex Front End
-For this exercise, you'll be creating a Pokedex that displays all of the original 151 Pokemon and detail pages for each Pokemon. This repository is also live at https://sleepy-earth-06238.herokuapp.com/ if you would like to see how it works.
+For this exercise, you'll be creating a Pokedex that displays all of the original 151 Pokemon and detail pages for each Pokemon. The application is also live at https://sleepy-earth-06238.herokuapp.com/ if you would like to see how it works.
 
 ![Pokedex Homepage](https://raw.githubusercontent.com/JonHMChan/flask-app-1/master/static/img/preview.png)
 
@@ -48,7 +48,7 @@ These instructions are a simplified version of the Flask [installation instructi
 4. Once you have `Flask` properly installed, make sure you set your environment variables so Flask knows what file to start with. In this repository, the app starts with the file `app.py`. If you rename `app.py` or want to use a different file as the entrypoint, you'll have to run `export FLASK_APP={FILENAME}` and replace `{FILENAME}` with the correct filename to make sure the app runs.
 5. Once you have everything setup, you should be able to run `flask run` and your server should start listening. Go to a browser at `localhost:5000` and you should see your app running.
 
-## Requirements
+# Requirements
 You'll be focusing on the front end of the application. Future exercises will be built on top of the knowledge you gain from this exercise.
 
 1. **Home Page** (`localhost:5000`) - Your home page should have the following:
@@ -59,7 +59,6 @@ You'll be focusing on the front end of the application. Future exercises will be
  - If you click on any Pokemon in the grid, it will take you to a page with the URL `/:id` where `:id` is replaced by the Pokemon's ID. So if you click on Bulbasaur, you would go to `localhost:5000/1`.
  - You should get the Pokemon information using JavaScript/jQuery/AJAX and fetch the data from the internal server at `localhost:5000/api/pokemon`
  - For which files to change, make sure to read the "Files and folders" section of this README.
-
 2. **Detail Page** (`localhost:5000/:id`, where `:id` is the ID of the Pokemon) - For each Pokemon, there's a detail page that includes the following:
  - A link to go back to the home page.
  - A heading with the Pokemon's name.
@@ -76,6 +75,7 @@ You'll be focusing on the front end of the application. Future exercises will be
    - The name of each Pokemon's evolutions should link to their detail page. For example, Bulbasaur evolves into Ivysaur, and clicking on "Ivysaur" in the evolutions table should take me to Ivysaur's detail page at `localhost:5000/2`. Some of the links may not work if they are not part of the original 151 Pokemon in this dataset.
  - You should get the Pokemon information using JavaScript/jQuery/AJAX and fetch the data from the internal server at `localhost:5000/api/pokemon/:id`, where `:id` is the ID of the Pokemon.
  - For which files to change, make sure to read the "Files and folders" section of this README.
+3. Do not use a CSS framework or library like Bootstrap.
 
  ## What you need to know
  To properly complete this exercise, you'll need to understand a few concepts in jQuery:
