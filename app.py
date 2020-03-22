@@ -1,5 +1,6 @@
 # Do not change anything in this file for this exercise
 import json
+import os
 from flask import Flask, escape, request, jsonify, render_template
 
 app = Flask(__name__)
@@ -31,3 +32,8 @@ def api_pokemon_id_get(id):
         if pokemon.get("id") == id:
             return jsonify(pokemon), 200
     return jsonify({}), 404
+
+if __name__ == '__main__':
+    # Bind to PORT if defined, otherwise default to 5000.
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
