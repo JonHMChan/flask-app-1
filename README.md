@@ -71,6 +71,30 @@ You'll be focusing on the front end of the application. Future exercises will be
  - A section for the Pokemon's evolutions. It should include:
    - A heading with the text "Evolutions"
    - A table that lists all the information about the Pokemon's evolutions. This should include the evolution's name, level at which the Pokemon evolves, and the method used to evolve.
-   - The name of each Pokemon's evolutions should link to their detail page. For example, Bulbasaur evolves into Ivysaur, and clicking on "Ivysaur" in the evolutions table should take me to Ivysaur's detail page at `localhost:5000/2`.
+   - The name of each Pokemon's evolutions should link to their detail page. For example, Bulbasaur evolves into Ivysaur, and clicking on "Ivysaur" in the evolutions table should take me to Ivysaur's detail page at `localhost:5000/2`. Some of the links may not work if they are not part of the original 151 Pokemon in this dataset.
  - You should get the Pokemon information using JavaScript/jQuery/AJAX and fetch the data from the internal server at `localhost:5000/api/pokemon/:id`, where `:id` is the ID of the Pokemon.
  - For which files to change, make sure to read the "Files and folders" section of this README.
+
+ ## What you need to know
+ To properly complete this exercise, you'll need to understand a few concepts in jQuery:
+
+ - How to use jQuery with the `$()` function.
+ - What `$(document).ready()` in jQuery does and how to use it to run your code.
+ - How to select elements on your page using `$()` using CSS selectors.
+ - How to change an element's content using the `html()`, `text()`, and `append()` methods.
+ - How to change an element's attributes using `attr()`.
+ - What AJAX is and how to properly make requests to an API.
+ - What REST is and how it's used to structure APIs.
+ - How to use the `$.ajax()` method in jQuery. There are a lot of options for `$.ajax()`,
+   but you only need to pay attention to method, url, data, and success. Figure out
+   what each of these are for and how to use them.
+ - To properly use `$.ajax()` and the success option, you'll need to understand JavaScript callbacks.
+ - To make writing stings with variable data easier, look up template literals in JavaScript.
+ 
+Here are some helpful places to look:
+
+ - W3Schools has a pretty straightforward tutorial on jQuery: https://www.w3schools.com/jquery/
+ - YouTube has some great tutorials as well. Here's one on jQuery and AJAX: https://www.youtube.com/watch?v=fEYx8dQr_cQ
+ - The jQuery documentation is also helpful, but it can be overwhelming: https://api.jquery.com/
+
+Look around in different places and different mediums to learn.
