@@ -49,7 +49,7 @@ These instructions are a simplified version of the Flask [installation instructi
 5. Once you have everything setup, you should be able to run `flask run` and your server should start listening. Go to a browser at `localhost:5000` and you should see your app running.
 
 # Requirements
-You'll be focusing on the front end of the application. Future exercises will be built on top of the knowledge you gain from this exercise.
+You'll be focusing on the front end of the application. Future exercises will be built on top of the knowledge you gain from this exercise. You'll be focusing on the front end of the application. Future exercises will be built on top of the knowledge you gain from this exercise. In addition to the requirements below, you can see the full solution of this application running at https://sleepy-earth-06238.herokuapp.com/.
 
 1. **Home Page** (`localhost:5000`) - Your home page should have the following:
  - A heading at the top of the page with the text "Pokedex".
