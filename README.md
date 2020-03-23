@@ -34,12 +34,14 @@ For this exercise, you'll be creating a Pokedex that displays all of the origina
 # Setup
 These instructions are a simplified version of the Flask [installation instructions](https://flask.palletsprojects.com/en/1.1.x/installation/) and [quickstart](https://flask.palletsprojects.com/en/1.1.x/quickstart/). If you have any questions, feel free to reach out to me.
 
-1. Clone this repository using `git clone` and `cd` from your command line into the repository folder.
-2. Make sure you have Python 3 installed. You can check this by seeing if the command `python3` works in your command line. If you successfully run `python3`, you can exit the interpreter by typing `quit()` then hitting Enter. If you don't have Python 3 installed, follow [these instructions](https://realpython.com/installing-python/).
-3. From the root of the repository, run the following command: `sh setup.sh`. This is a file I've written to automate the initial setup of this application. It will start your app automatically, and you can go to `localhost:5000` in a web browser to view it. If you want detailed instructions on how this file works, go to "How setup.sh works" below.
-4. Whenever you're about to work on your application, make sure to run `. venv/bin/activate` first to start your virtual environment, then you can run `flask run` from the root of your repository to start your application.
- - To stop your server it's running in the command line, hit `Control + C` to stop the server.
- - If you change your HTML files, you'll have to restart the server to see changes.
+1. [Fork this repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) so you can make changes.
+2. Clone this repository from your fork using `git clone` and `cd` from your command line into the repository folder.
+3. Make sure you have Python 3 installed. You can check this by seeing if the command `python3` works in your command line. If you successfully run `python3`, you can exit the interpreter by typing `quit()` then hitting Enter. If you don't have Python 3 installed, follow [these instructions](https://realpython.com/installing-python/).
+4. From the root of the repository, run the following command: `sh setup.sh`. This is a file I've written to automate the initial setup of this application. It will start your app automatically, and you can go to `localhost:5000` in a web browser to view it. If you want detailed instructions on how this file works, go to "How setup.sh works" below.
+5. Whenever you're about to work on your application, make sure to run `. venv/bin/activate` first to start your virtual environment, then you can run `flask run` from the root of your repository to start your application.
+  - To stop your server it's running in the command line, hit `Control + C` to stop the server.
+  - If you change your HTML files, you'll have to restart the server to see changes.
+6. You should commit and push your changes to your fork every time you complete a unit of work. Remember to do this often!
 
 ## How setup.sh works
 1. Python 3 comes with venv, a "virtual environment" to manage packages like `Flask` that you'll need to run your application. When you first clone this repository, run `python3 -m venv venv` from the root of the repository to create a virtual environment for your application. This will create a few folders and files related to venv, in a `venv` folder.
